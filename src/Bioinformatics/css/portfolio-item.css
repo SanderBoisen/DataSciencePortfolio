@@ -13,3 +13,33 @@ body {
     padding-top: 56px;
   }
 }
+
+.carousel {
+  width:600px;
+  height:400px;
+  margin: 0 auto;
+  padding-bottom: 75px
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 75%, 75%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.top-buffer { margin-top:80px; }
