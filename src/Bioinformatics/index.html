@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Portfolio Item - Start Bootstrap Template</title>
+    <title>Bioinformatics</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -53,26 +53,52 @@
     <div class="container">
 
       <!-- Portfolio Item Heading -->
-      <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
+      <h1 class="my-4">Bioinformatics
+        <small>Examples from exam project</small>
       </h1>
 
       <!-- Portfolio Item Row -->
       <div class="row">
 
-        <div class="col-md-8">
-          <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+        <div class ='col-md-8 mb-5'>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center">
+                <img class="img-fluid center-block w-75" src="src/Extremes.jpg" alt="Extremes plot">
+              </div>
+              <div class="carousel-item text-center">
+                <img class="img-fluid center-block w-75" src="src/Lineplot.jpg" alt="Line plot">
+              </div>
+              <div class="carousel-item text-center">
+                <img class="img-fluid center-block w-75" src="src/SignificantScatter.jpg" alt="Significant scatter">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="false"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
 
         <div class="col-md-4">
           <h3 class="my-3">Project Description</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-          <h3 class="my-3">Project Details</h3>
+          <p>I completed a course on the data science aspects of bioinformatics and these examples are from the final report.
+            The course did not focus on bioinformatics algorithms or reads and sequences, but rather the data that follows along with it:
+            Read lengths, depth of coverage, read window, comparison with simulations and links with statistics.
+            I have chosen three of my favorite plots from the report. The full report is available below.
+          </p>
+          <h3 class="my-3">Plot details</h3>
           <ul>
-            <li>Lorem Ipsum</li>
-            <li>Dolor Sit Amet</li>
-            <li>Consectetur</li>
-            <li>Adipiscing Elit</li>
+            <li>Scatter plot of nucleotide diversity at sites coloured whether they display extreme values of two parameters.</li>
+            <li>Various parameters and distance to centromer</li>
+            <li>Test of whether or not cirtain regions of the genome adhere to a Poison null-distribution for seqeuencing coverage</li>
+            <li> <a href = 'https://raw.githubusercontent.com/SanderBoisen/DataSciencePortfolio/src/Bioinformatics/BioinformaticsReport.pdf'>
+               Full report can be downloaded here </li>
           </ul>
         </div>
 
