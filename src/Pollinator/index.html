@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Portfolio Item - Start Bootstrap Template</title>
+    <title>Plant-Pollinator interactions</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,25 +23,25 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="https://SanderBoisen.github.io/DataSciencePortfolio">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+            <li class="nav-item">
+              <a class="nav-link active" href="https://SanderBoisen.github.io/DataSciencePortfolio">Portfolio
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="https://SanderBoisen.github.io/DataSciencePortfolio/src/About">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="https://SanderBoisen.github.io/DataSciencePortfolio/src/CV">Curriculum Vitae</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="https://SanderBoisen.github.io/DataSciencePortfolio/src/Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -59,19 +59,45 @@
       <!-- Portfolio Item Row -->
       <div class="row">
 
-        <div class="col-md-8">
-          <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+        <div class ='col-md-8 mb-5'>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center">
+                <img class="img-fluid center-block w-75" src="src/MPDPvalue.JPG" alt="MPD pvalue">
+              </div>
+              <div class="carousel-item text-center">
+                <img class="img-fluid center-block w-75" src="src/PollinatorClassPlantFamily.jpg" alt="Pollinator class, plant family">
+              </div>
+              <div class="carousel-item text-center">
+                <img class="img-fluid center-block w-75" src="src/PollinatorFamilies.jpg" alt="Distribution of pollinators">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="false"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
 
         <div class="col-md-4">
           <h3 class="my-3">Project Description</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-          <h3 class="my-3">Project Details</h3>
+          <p>
+            I was working with Paul Caradonna on implementing a phylogenetic aspect to his work with plant-pollinator interactions in the Rocky Mountains.
+            Our collaboration was cut short by the beginning of my own Ph.D. project, but I used some of the available data in an exam project before then.
+            Here I present some of the plots from that project, mostly made using ggplot and cowplot in r. A link to the full report follows below.
+
+          </p>
+          <h3 class="my-3">Item list</h3>
           <ul>
-            <li>Lorem Ipsum</li>
-            <li>Dolor Sit Amet</li>
-            <li>Consectetur</li>
-            <li>Adipiscing Elit</li>
+            <li>Comparison of Mean Pairwise Distances of phylogenetic tips on Species and Family level</li>
+            <li>Distribution of interactions of pollinator classes coloured by plant family</li>
+            <li>Distribution of pollinator observations coloured by pollinator family</li>
+            <li><a href ='https://github.com/SanderBoisen/DataSciencePortfolio/raw/master/src/Pollinator/FinalReportSanderBoisen.pdf' >Full report available here <a></li>
           </ul>
         </div>
 
@@ -84,26 +110,20 @@
       <div class="row">
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+          <a href="https://sanderboisen.github.io/DataSciencePortfolio/src/Bioinformatics">
+            <img class="img-fluid" src="https://raw.githubusercontent.com/SanderBoisen/DataSciencePortfolio/master/src/Bioinformatics/src/Lineplot.jpg" alt="">
           </a>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+          <a href="https://sanderboisen.github.io/DataSciencePortfolio/src/Ggplot">
+            <img class="img-fluid" src="https://raw.githubusercontent.com/SanderBoisen/DataSciencePortfolio/master/src/Ggplot/src/PCD.jpg" alt="">
           </a>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
-        </div>
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+          <a href="https://sanderboisen.github.io/DataSciencePortfolio/src/Clustering">
+            <img class="img-fluid" src="https://raw.githubusercontent.com/SanderBoisen/DataSciencePortfolio/master/src/Clustering/src/CCA.jpeg" alt="">
           </a>
         </div>
 
