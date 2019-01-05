@@ -52,20 +52,46 @@
     <div class="container">
 
       <!-- Portfolio Item Heading -->
-      <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
+      <h1 class="my-4">Clustering and multivariat data
+        <small>Making sense of multidimensional data</small>
       </h1>
 
       <!-- Portfolio Item Row -->
       <div class="row">
+        <div class ='col-md-8 mb-5'>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
-        <div class="col-md-8">
-          <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center">
+                <img class="img-fluid center-block w-75" src="src/BOGS_Clustering.jpg" alt="Phylogeny plot">
+              </div>
+              <div class="carousel-item text-center">
+                <img class="img-fluid center-block w-75" src="src/CCA.jpg" alt="CCA">
+              </div>
+              <div class="carousel-item text-center">
+                <img class="img-fluid center-block w-75" src="src/MDS.jpg" alt="MDS">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="false"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
-
         <div class="col-md-4">
           <h3 class="my-3">Project Description</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+          <p>
+          One of my favorite disciplines in statistics and exploratory analysis is multivariat statistics.
+          Phylogenetics are a special case of multivariat statistics and clustering in particular that deals with evolutionary data.
+          The goal is often to produce a fully resolved phylogenetic tree that reflects evolutionary history of the studied group of organisms.
+          Today sequence data is often used and each position in a gene represents a variable. Phylogenetic trees can therefore be thought of as
+          a summary of the differences across millions or billions of variables. While the evolutionary interpretation is not relevant to all types of
+          data, hierarchical clustering is still a useful tool. Filesystems is one case of hierarchical structure and there is potential
+          </p>
           <h3 class="my-3">Project Details</h3>
           <ul>
             <li>Lorem Ipsum</li>
@@ -76,37 +102,31 @@
         </div>
 
       </div>
+
       <!-- /.row -->
 
       <!-- Related Projects Row -->
-      <h3 class="my-4">Related Projects</h3>
+      <h3 class="mt-5 mb-4">Related Projects</h3>
 
       <div class="row">
 
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        <div class="col-md-3 col-sm-6 mb-4 t-3">
+          <a href="https://sanderboisen.github.io/DataSciencePortfolio/src/Pollinator">
+            <img class="img-fluid" src="https://raw.githubusercontent.com/SanderBoisen/DataSciencePortfolio/master/src/Pollinator/src/PollinatorFamilies.jpg" alt="">
           </a>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+          <a href="https://sanderboisen.github.io/DataSciencePortfolio/src/Bioinformatics">
+            <img class="img-fluid" src="https://raw.githubusercontent.com/SanderBoisen/DataSciencePortfolio/master/src/Bioinformatics/src/Lineplot.jpg" alt="">
           </a>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+          <a href="https://sanderboisen.github.io/DataSciencePortfolio/src/Ggplot">
+            <img class="img-fluid" src="https://raw.githubusercontent.com/SanderBoisen/DataSciencePortfolio/master/src/Ggplot/src/Boxplot.jpg" alt="">
           </a>
         </div>
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
-        </div>
-
       </div>
       <!-- /.row -->
 
@@ -116,7 +136,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Sander Boisen</p>
       </div>
       <!-- /.container -->
     </footer>
