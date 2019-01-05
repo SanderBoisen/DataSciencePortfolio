@@ -6,6 +6,8 @@
 
 body {
   padding-top: 54px;
+  background: url('https://raw.githubusercontent.com/SanderBoisen/DataSciencePortfolio/master/src/About/src/background.jpg') repeat center center fixed;
+  -webkit-background-size: cover;
 }
 
 @media (min-width: 992px) {
